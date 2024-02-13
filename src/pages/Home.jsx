@@ -45,7 +45,9 @@ export const Home = () => {
               <directionalLight  position={[1,1,1]} intensity={2}/>
               <hemisphereLight  skyColor = '#b1e1ff' groundColor='#000000' intensity={1}/>
               <ambientLight intensity={0.5}/>
-              <Sky />
+              <Sky 
+                isRotating = {isRotating}
+              />
               <Bird />
               <Plane 
               isRotating = {isRotating}
