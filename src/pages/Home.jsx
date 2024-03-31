@@ -45,7 +45,7 @@ export const Home = () => {
       screenPosition = [0,-1.5,0];
     }
     else{
-      screenScale = [1,1,1];
+      screenScale = [2,2,2];
       screenPosition = [0,-4,-4];
     }
     return [screenScale,screenPosition];
@@ -69,7 +69,7 @@ export const Home = () => {
               <Bird />
               <Plane 
               isRotating = {isRotating}
-                planeScale = {planeScale}
+                scale = {planeScale}
                 planePosition = {planePosition}
                 rotation = {[0,20,0]}
               />
